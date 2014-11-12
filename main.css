@@ -1,0 +1,14 @@
+#main-nav ul {
+    list-style: none;
+}
+
+ li {
+     float: left;
+     padding-right: 1em;
+     padding-left: 1em;
+ }
+
+ #logo {
+     float: left;
+     padding-right: 15px;
+ }
