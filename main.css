@@ -1,5 +1,8 @@
-#main-nav ul {
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,100,100italic,300italic);
+
+#mainc-nav ul {
     list-style: none;
+    font-family: 'Roboto Thin', "Verdana", sans-serif;
 }
 
  li {
