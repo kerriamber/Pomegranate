@@ -19,3 +19,8 @@
  footer {
      font-size: 0.75em;
  }
+
+footer img{
+    max-height: 20px;
+    max-width: 20px;
+}
