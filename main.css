@@ -1,8 +1,17 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,100,100italic,300italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,300italic,400italic);
 
-#main-nav ul {
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto, Verdana, sans-serif;
+}
+
+nav ul {
     list-style: none;
-    font-family: 'Roboto Thin', "Verdana", sans-serif;
+    display: inline;
+    font-family: 'Roboto', "Verdana", sans-serif;
+    font-weight: 300;
 }
 
  li {
