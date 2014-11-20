@@ -27,9 +27,14 @@ nav ul {
 
  footer {
      font-size: 0.75em;
+     background-color: grey;
+     border-color: darkred;
+     border-style: solid;
  }
 
 footer img{
-    max-height: 20px;
+    max-height: 25px;
     max-width: 20px;
+    float: right
+    
 }
