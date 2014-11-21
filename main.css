@@ -23,6 +23,7 @@ body{
     
 }
 
+
 #index-p{
 
     
@@ -30,6 +31,27 @@ body{
     border: 5px solid black;
     margin: 25px;
     
+}
+
+
+a:link{
+    text-decoration: none;
+    font-weight: 300;
+}
+
+a:hover{
+    text-decoration: none;
+    font-weight: 400;
+}
+
+a:visited{
+    text-decoration: none;
+    font-weight: 300;
+}
+
+a:active{
+    text-decoration: none;
+    font-weight: 300;
 }
 
 
