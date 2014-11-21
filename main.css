@@ -32,14 +32,20 @@ a:link{
 }
 
 
-
 a:visited{
     text-decoration: none;
     font-weight: 300;
     color: white;
 }
 
+
 a:active{
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(255,0,37);
+}
+
+a:hover{
     text-decoration: none;
     font-weight: 300;
     color: rgb(255,0,37);
@@ -110,6 +116,10 @@ footer img{
 
 footer a{
     color: lightblue
+}
+
+footer a:hover{
+     color: rgb(255,0,37);
 }
 
 
