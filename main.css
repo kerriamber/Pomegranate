@@ -1,15 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,300italic,400italic);
 
+html {
+    background: url(img/bg.jpg) no-repeat;
+    background-size: 100%;
+}
+
 body{
-    
+
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
     font-family: Roboto, Verdana, sans-serif;
-    background-image: url(img/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: white;
+    
 }
 
 
@@ -52,9 +54,16 @@ a:active{
     color: white;
 }
 
+nav {
+    display: inline-block;
+    line-height: 64px;
+    vertical-align: center;
+    
+}
+
 nav ul {
     list-style: none;
-    display: inline;
+    
     font-family: 'Roboto', "Verdana", sans-serif;
     font-weight: 300;
 }
@@ -63,7 +72,7 @@ nav ul {
      float: left;
     margin-top: 2%;
      padding-right: 1em;
-     padding-left: 1em;
+     
  }
 
 h1{
@@ -75,6 +84,10 @@ h1{
 #properties{
     
     display: vertical inline;
+}
+
+img {
+    height: 100%;
 }
 
  #logo {
