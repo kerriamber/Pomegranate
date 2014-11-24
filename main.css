@@ -128,3 +128,18 @@ html {
   background: url(img/bg.jpg) no-repeat center center fixed; 
   background-size: cover;
 }
+
+form    {
+    font-family: 'Roboto', "Verdana", sans-serif;
+    border-style: solid;
+}
+
+fieldset{
+    border-style: none;
+    text-align: left;
+}
+
+input    {
+    display:block;
+    height: 25px;
+}
