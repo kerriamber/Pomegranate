@@ -142,3 +142,7 @@ input    {
     display:block;
     height: 25px;
 }
+
+address{
+    font-style: normal;
+}
