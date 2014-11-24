@@ -138,6 +138,17 @@ fieldset{
     text-align: left;
 }
 
+legend{
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-decoration: underline
+}
+
+label{
+    float: left;
+    padding-top: .25em;
+}
+
 input    {
     display:block;
     height: 25px;
