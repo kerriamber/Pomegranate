@@ -16,7 +16,7 @@ John Spicer
 <html>
     <head lang="en">
         <meta charset="UTF-8">
-        <title>Pomegranate, Inc.</title>
+        <title>Pomegranate, Inc. - Contact Us</title>
         <link href="main.css" rel="stylesheet" type="text/css">
         <link rel="shortcut icon" type="image/x-icon" href="img/PomegranateLogo.png" />
     </head>
@@ -36,21 +36,24 @@ John Spicer
                  Pomegranate, Inc.
                 </h1>
         </header>
-        <br><br>
-
-        <form action="script.php" method = "post">
-            <fieldset>
-                <legend>Fill out your preferred options for the uPhone</legend>
-                <legend> Size</legend>
-                <label for = "sm" >Small</label>
-        <input type = "radio" id = "sm" name ="size" value = "small"/>
-                <label for = "med" >Medium</label>
-        <input type = "radio" id = "med" name ="size" value = "medium"/>
-                <label for = "lar" >Large</label>
-        <input type = "radio" id = "lar" name ="size" value = "large"/>
+        <br>
+        <section>
+            <p>We can be contacted at <a href="mailto:uphone@pomegranate">uPhone@pomegranate.com</a></p>
+            <p>If you prefer to send mail, send it to 1 Castle Point on Hudson Hoboken, NJ 07030</p>
+            <p>Or use our form!</p>
+            <form method="post" name="contact" id="contact">
+                <fieldset>
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname"  size="20" required/>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" size="20" required />
+                    <label for="message">Enter Your Message</label>
+                    <textarea name="message" rows="20" cols="40"></textarea>
+                    <input type="submit" name="submit" />
                 </fieldset>
-        </form>
-
+            </form>
+        </section>
+        <br>
 
         <footer>
             ©2014 Pomegranate, Inc., a subsidiary of Damage, Inc. All rights reserved, no takebacks. <em><a href = "privacy.html">Privacy Policy</a> <a href="terms.html">Terms of Use</a></em>
