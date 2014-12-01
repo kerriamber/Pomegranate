@@ -139,10 +139,15 @@ fieldset{
 }
 
 input    {
-    display:block;
-    height: 25px;
+    display:inline;
 }
 
 address{
     font-style: normal;
+}
+
+legend {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-weight: bold;
 }
