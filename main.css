@@ -9,43 +9,25 @@ body{
     
 }
 
-
-
-#about-p{    
+#about-p, #index-p {    
     padding: 25px;
     border: 5px solid black;
     margin: 25px;    
 }
 
-
-#index-p{
-    padding: 25px;
-    border: 5px solid black;
-    margin: 25px;
+#contact textarea {
+    width: 90%;
 }
 
 
-a:link{
+
+a, a:visited {
     text-decoration: none;
     font-weight: 300;
     color: white;
 }
-
-
-a:visited{
-    text-decoration: none;
-    font-weight: 300;
-    color: white;
-}
-
 
 a:active{
-    text-decoration: none;
-    font-weight: 300;
-    color: rgb(255,0,37);
-}
-
-a:hover{
     text-decoration: none;
     font-weight: 300;
     color: rgb(255,0,37);
@@ -60,20 +42,20 @@ a:hover{
 nav {
     display: inline-block;
     line-height: 64px;
-    vertical-align: center;
-    
+    vertical-align: center; 
 }
 
 nav ul {
     list-style: none;
     font-family: 'Roboto', "Verdana", sans-serif;
     font-weight: 300;
+    padding: 0;
 }
 
- li {
-     float: left;
+li {
+    float: left;
     margin-top: 2%;
-     padding-right: 1em;
+    padding-right: 1em;
      
  }
 
@@ -133,7 +115,7 @@ footer {
      color: white;
      font-family: 'Roboto', "Verdana", sans-serif;
      font-weight: 300;
-     position: absolute;
+     position: static;
      bottom: 0;
      max-width: 100%
  }
@@ -151,3 +133,65 @@ footer a{
 footer a:hover{
      color: rgb(255,0,37);
 }
+
+@media (max-width: 524px) {
+    footer {
+        font-size: 0.7em;
+    }
+    
+    nav {
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+    
+    nav li{
+        font-size: 1.6em;
+        padding: 0;
+        float: none;
+    }
+    
+    nav li:not(:first-child) {
+        background-color: red;
+        width: 100%;
+    }
+    
+    p, address {
+        text-align: center;
+        font-size: 90%;
+    }
+
+    #contact textarea {
+        width: 100%;
+    }
+    
+    body {
+        margin: 10px;
+    }
+    
+    h1 {
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    
+    br + br {
+        display: none;
+    }
+    
+    form {
+        background-color: white;
+    }
+    
+    input {
+        width: 100%;
+    }
+    
+    #contact {
+        overflow: hidden;
+    }
+
+    a:hover {
+        color: black;
+    }
+}
+
