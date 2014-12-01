@@ -23,7 +23,11 @@ John Spicer
         <script>
 
             function onSubmit() {
-                alert("Thank you for contacting us. A representative will contact you within 48 hours.");
+
+                var name = document.getElementById("firstname").value;
+                var email = document.getElementById("email").value;
+
+                alert("Thank you for contacting us, " + name + ". A representative will contact you at " + email + " within 48 hours.");
             }
 
         </script>
@@ -74,12 +78,13 @@ John Spicer
             </form>
             
             <address>
-            We can also be contacted at <a href="mailto:uphone@pomegranate">uPhone@pomegrana.te</a><br>
+            We can also be contacted at <a href="mailto:uPhone@pomegrana.te">uPhone@pomegrana.te</a><br>
             
             <br>
             Pomegranate, Inc.<br>
             A subsidiary of Damage, Inc.<br>
             2319 Zero Building<br>
+            Floor 0x2f<br>
             New York, NY 10001<br>
             </address>
         </section>
