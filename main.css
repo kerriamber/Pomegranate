@@ -192,7 +192,8 @@ address {
     #contact textarea {
         width: 100%;
     }
-    form {
-        background-color: #6588a8;
-    }
+}
+
+form {
+    background-color: #6588a8;
 }
