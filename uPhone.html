@@ -41,49 +41,89 @@ John Spicer
                 </ul>
             </nav>
             <h1>Presenting the uPhone</h1>
-            <p>Here at Pomegranate, we care about our customers' thoughts. This is why we have created the uPhone, the first phone designed by you. But in order to . Get your opinions heard in the form below</p>
+            <p>Here at Pomegranate, we care about our customers' thoughts. That's why we have created the uPhone, the first phone designed by you. But in order to continue to build the uPhone, we need your input. Fill out the fields below to choose the direction in which the uPhone will go.</p>
             
         </header>
         <br><br>
-        <form action="script.php" method = "post">
+        <form action="" method = "post">  <!-- The script would go in the action attribute... if we had one -->
             <fieldset>
-                <legend>Fill out your preferred options for the uPhone</legend>
-                <legend> Size</legend>
-                <label for = "sm" >Small</label>
-        <input type = "radio" id = "sm" name ="size" value = "small" checked required/>
-                <label for = "med" >Medium</label>
-        <input type = "radio" id = "med" name ="size" value = "medium" required/>
-                <label for = "lar" >Large</label>
-        <input type = "radio" id = "lar" name ="size" value = "large" required/>
-                <label for = "mag" >Magnum</label>
+                <legend>Fill out your preferred options for the uPhone.</legend>
+
+
+                <legend>Choose a screen size:</legend>
+
+                <input type = "radio" id = "sm" name ="size" value = "small" checked required/>
+                <label for = "sm" >Puny (4 inches)</label>
+
+                <br>
+
+                <input type = "radio" id = "med" name ="size" value = "medium" required/>
+                <label for = "med" >Standard (5 inches)</label>
+
+                <br>
+
+                <input type = "radio" id = "lar" name ="size" value = "large" required/>
+                <label for = "lar" >Large (5.5 inches)</label>
+
+                <br>
+
                 <input type = "radio" id = "mag" name ="size" value = "magnum" required/>
-            <legend>Memory</legend>
-            <label for = "8gb" >8 GB</label>
-            <input type = "radio" id = "8gb" name = "memory" value = "8gb" checked required/>
-            <label for = "16gb" >16 GB</label>
-            <input type = "radio" id = "16gb" name = "memory" value = "16gb" required/>
-            <label for = "32gb" >32 GB</label>
-            <input type = "radio" id = "32gb" name = "memory" value = "32gb" required/>
-            <label for = "64gb" >64 GB</label>
-            <input type = "radio" id = "64gb" name = "memory" value = "64gb" required/>
-                <legend>Color:</legend> 
-                    <label for = "black" >Black</label>
-                    <input type="radio" id = "black" name="color" value="black" checked required>
-                    <label for = "white" >White</label>
-                    <input type="radio" id = "white" name="color" value="white" required>
-                    <label for = "pomegranatered" >Pomegranate Red</label>
-                    <input type="radio" id = "pomegranatered" name="color" value="Pomegranate Red" required>
-            <legend>Camera:</legend> 
+                <label for = "mag" >Magnum (6 inches)</label>
 
-                    <label for = "8mp" >8 megapixels</label>
-                    <input type="radio" id = "8mp" name="camera" value="8 megapixels" checked required>
-                    <label for = "16mp" >16 megapixels, with optical image stabilization</label>
-                    <input type="radio" id = "16mp" name="camera" value="16 megapixels, with optical image stabilization" required>
-                    <label for = "41mp" >41 megapixels, with optical zoom and stabilization</label>
-                    <input type="radio" id = "41mp" name="camera" value="41 megapixels, with optical zoom and stabilization" required>
 
-            <br>
-            <input type="submit" id="submituPhone" onclick="onSubmit()" />
+                <legend>Choose the amount of storage:</legend>
+
+                <input type = "radio" id = "8gb" name = "memory" value = "8gb" checked required />
+                <label for = "8gb" >8 GB (all cloud storage)</label>
+
+                <br>
+
+                <input type = "radio" id = "16gb" name = "memory" value = "16gb" required/>
+                <label for = "16gb" >16 GB</label>
+
+                <br>
+
+                <input type = "radio" id = "32gb" name = "memory" value = "32gb" required/>
+                <label for = "32gb" >32 GB</label>
+
+                <br>
+
+                <input type = "radio" id = "64gb" name = "memory" value = "64gb" required/>
+                <label for = "64gb" >64 GB</label>
+
+                <legend>Choose a color:</legend>
+
+                <input type="radio" id = "black" name="color" value="black" checked required>
+                <label for = "black" >Black</label>
+
+                <br>
+
+                <input type="radio" id = "white" name="color" value="white" required>
+                <label for = "white" >White</label>
+
+                <br>
+
+                <input type="radio" id = "pomegranatered" name="color" value="Pomegranate Red" required>
+                <label for = "pomegranatered" >Pomegranate Red</label>
+
+
+                <legend>Choose a camera:</legend>
+
+                <input type="radio" id = "8mp" name="camera" value="8 megapixels" checked required>
+                <label for = "8mp" >8 megapixels</label>
+
+                <br>
+
+                <input type="radio" id = "16mp" name="camera" value="16 megapixels, with optical image stabilization" required>
+                <label for = "16mp" >16 megapixels, with optical image stabilization</label>
+
+                <br>
+
+                <input type="radio" id = "41mp" name="camera" value="41 megapixels, with optical zoom and stabilization" required>
+                <label for = "41mp" >41 megapixels, with optical zoom and stabilization</label>
+
+            <br><br>
+            <input type="submit" id="submituPhone" onclick="onSubmit()" value="Submit" />
 
             </fieldset>
         </form>
