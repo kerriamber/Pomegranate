@@ -19,6 +19,15 @@ John Spicer
         <title>Pomegranate, Inc.</title>
         <link href="main.css" rel="stylesheet" type="text/css">
         <link rel="shortcut icon" type="image/x-icon" href="img/PomegranateLogo.png" />
+
+        <script>
+
+            function onSubmit() {
+                alert("Thank you for voicing your input. Pomegranate thoroughly appreciates your interest in the uPhone.");
+            }
+
+        </script>
+
     </head>
     <body id = "index">
         <header>
@@ -72,10 +81,9 @@ John Spicer
                     <input type="radio" id = "16mp" name="camera" value="16 megapixels, with optical image stabilization" required>
                     <label for = "41mp" >41 megapixels, with optical zoom and stabilization</label>
                     <input type="radio" id = "41mp" name="camera" value="41 megapixels, with optical zoom and stabilization" required>
-            <input type="submit" id="submituPhone" />
 
             <br>
-            <input type="submit" id="submituPhone"/>
+            <input type="submit" id="submituPhone" onclick="onSubmit()" />
 
             </fieldset>
         </form>
