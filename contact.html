@@ -19,6 +19,14 @@ John Spicer
         <title>Pomegranate, Inc. - Contact Us</title>
         <link href="main.css" rel="stylesheet" type="text/css">
         <link rel="shortcut icon" type="image/x-icon" href="img/PomegranateLogo.png" />
+
+        <script>
+
+            function onSubmit() {
+                alert("Thank you for contacting us. A representative will contact you within 48 hours.");
+            }
+
+        </script>
     </head>
     <body id = "index">
         <header>
@@ -40,16 +48,28 @@ John Spicer
             <p>Use our form to contact us quickly and easily.</p>
             <form method="post" name="contact" id="contact">
                 <fieldset>
-                    <label for="firstname">First Name</label>
-                    <input type="text" name="firstname"  size="20" required/>
+                    <label for="firstname">First name: </label>
+                    <input type="text" id="firstname" name="firstname" size="20" required/>
+
                     <br>
-                    <label for="lastname">Last Name</label>
-                    <input type="text" name="lastname" size="20" required />
+
+                    <label for="lastname">Last name: </label>
+                    <input type="text" id="lastname" name="lastname" size="20" required />
+
                     <br>
-                    <label for="message">Enter Your Message</label>
+
+                    <label for="message">Message: </label>
                     <br>
-                    <textarea name="message" rows="20" cols="40"></textarea>
-                    <input type="submit" name="submit" />
+                    <textarea id="message" name="message" rows="20" cols="40" required></textarea>
+
+                    <br>
+
+                    <label for="email">Your email address:</label>
+                    <input type="text" id="email" name="email" size="20" required />
+
+                    <br>
+                    <input type="submit" name="submit" value="Submit" onclick="onSubmit()" />
+
                 </fieldset>
             </form>
             
