@@ -82,7 +82,7 @@ html {
 
 form {
     font-family: 'Roboto', "Verdana", sans-serif;
-    border-style: solid;
+    border: 3px solid black;
 }
 
 fieldset {
