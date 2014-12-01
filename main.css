@@ -97,31 +97,6 @@ img {
      padding-right: 15px;
  }
 
- footer {
-     font-size: .85em;
-     width: 960px;
-     color: white;
-     font-family: 'Roboto', "Verdana", sans-serif;
-     font-weight: 300;
-     position: absolute;
-     bottom: 0;
-     max-width: 100%
- }
-
-footer img{
-    max-height: 25px;
-    max-width: 20px;
-    float: right;
-}
-
-footer a{
-    color: lightblue
-}
-
-footer a:hover{
-     color: rgb(255,0,37);
-}
-
 
 html { 
   background: url(img/bg.jpg) no-repeat center center fixed; 
@@ -150,4 +125,29 @@ legend {
     padding-top: .5em;
     padding-bottom: .5em;
     font-weight: bold;
+}
+
+footer {
+     font-size: .85em;
+     width: 960px;
+     color: white;
+     font-family: 'Roboto', "Verdana", sans-serif;
+     font-weight: 300;
+     position: absolute;
+     bottom: 0;
+     max-width: 100%
+ }
+
+footer img{
+    max-height: 25px;
+    max-width: 20px;
+    float: right;
+}
+
+footer a{
+    color: lightblue
+}
+
+footer a:hover{
+     color: rgb(255,0,37);
 }
