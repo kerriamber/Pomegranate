@@ -7,13 +7,6 @@ body {
     font-family: Roboto, Verdana, sans-serif;
 }
 
-#about-p, #index-p{
-    padding: 25px;
-    border: 3px solid black;
-    margin: 25px;
-    background-color: #6588a8;
-}
-
 .bordered {
     padding: 25px;
     border: 3px solid black;
