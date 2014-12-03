@@ -7,11 +7,26 @@ body {
     font-family: Roboto, Verdana, sans-serif;
 }
 
-#about-p, #index-p {    
+#about-p, #index-p{
     padding: 25px;
     border: 3px solid black;
     margin: 25px;
     background-color: #6588a8;
+}
+
+.bordered {
+    padding: 25px;
+    border: 3px solid black;
+    margin: 25px;
+    background-color: #6588a8;
+}
+
+#terms {
+
+}
+
+#gpl {
+    white-space: pre;
 }
 
 #contact textarea {
@@ -88,10 +103,6 @@ form {
 fieldset {
     border-style: none;
     text-align: left;
-}
-
-input {
-    display:inline;
 }
 
 address {
