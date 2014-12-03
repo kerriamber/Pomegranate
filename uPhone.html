@@ -91,6 +91,38 @@ John Spicer
                 <input type = "radio" id = "64gb" name = "memory" value = "64gb" required/>
                 <label for = "64gb" >64 GB</label>
 
+                <legend>Choose a camera:</legend>
+
+                <input type="radio" id = "8mp" name="camera" value="8 megapixels" checked required>
+                <label for = "8mp" >8 megapixels</label>
+
+                <br>
+
+                <input type="radio" id = "16mp" name="camera" value="16 megapixels, with optical image stabilization" required>
+                <label for = "16mp" >16 megapixels, with optical image stabilization</label>
+
+                <br>
+
+                <input type="radio" id = "41mp" name="camera" value="41 megapixels, with optical zoom and stabilization" required>
+                <label for = "41mp" >41 megapixels, with optical zoom and stabilization</label>
+                
+                <legend>Optional features:</legend>
+                
+                <input type="checkbox" id="speakers" name="frontspeakers" value="Front-facing speakers">
+                <label for="speakers">Front-facing speakers</label>
+                
+                <br>
+                
+                <input type="checkbox" id="infared" name="infared" value="IR blaster">
+                <label for="infared">IR blaster (control your TV, DVD player, and more)</label>
+                
+                <br>
+                
+                <input type="checkbox" id="SD" name="SD" value="SD card slot">
+                <label for="SD">SD card slot</label>
+                
+                <em><legend>Personalization:</legend></em>
+                
                 <legend>Choose a color:</legend>
 
                 <input type="radio" id = "black" name="color" value="black" checked required>
@@ -106,21 +138,15 @@ John Spicer
                 <input type="radio" id = "pomegranatered" name="color" value="Pomegranate Red" required>
                 <label for = "pomegranatered" >Pomegranate Red</label>
 
-
-                <legend>Choose a camera:</legend>
-
-                <input type="radio" id = "8mp" name="camera" value="8 megapixels" checked required>
-                <label for = "8mp" >8 megapixels</label>
-
+                <br><br>
+                
+                <label for="image">Upload an image to use for the homescreen:</label><br>
+                <input type="file" id="image" value="homeScreenImage">
+                
                 <br>
-
-                <input type="radio" id = "16mp" name="camera" value="16 megapixels, with optical image stabilization" required>
-                <label for = "16mp" >16 megapixels, with optical image stabilization</label>
-
-                <br>
-
-                <input type="radio" id = "41mp" name="camera" value="41 megapixels, with optical zoom and stabilization" required>
-                <label for = "41mp" >41 megapixels, with optical zoom and stabilization</label>
+                <label for="accentColor">Select an accent color (for the buttons and highlights)</label><br>
+                <input type="color" id="accentColor" value="accentColor">
+                
 
             <br><br>
             <input type="submit" id="submituPhone" onclick="onSubmit()" value="Submit" />
