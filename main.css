@@ -132,10 +132,6 @@ footer a:hover {
      color: rgb(255,0,37);
 }
 
-address {
-    color: white;
-}
-
 pre {
     font-family: "Roboto", "Verdana", sans-serif;
     display: inline-block;
@@ -192,9 +188,14 @@ pre {
         font-size: 0.8em;
     }
     
-    input[type='radio'] {
+    input[type='radio'], input[type='checkbox'] {
         width: 8%;
     }
+    
+    input[type='color'] {
+        width: 25%;
+    }
+    
 }
 
 @media (max-width: 1100px) {
