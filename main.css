@@ -21,14 +21,6 @@ body {
     background-color: #6588a8;
 }
 
-#terms {
-
-}
-
-#gpl {
-    white-space: pre;
-}
-
 #contact textarea {
     width: 90%;
 }
@@ -145,6 +137,11 @@ footer a:hover {
 
 address {
     color: white;
+}
+
+pre {
+    font-family: "Roboto", "Verdana", sans-serif;
+    display: inline-block;
 }
 
 @media (max-width: 524px) {
